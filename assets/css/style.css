@@ -1,0 +1,44 @@
+/*
+Colours
+
+$orange: #684A3B;
+$teal: #684A3B;
+$dark: #684A3B;
+$brown: #684A3B;
+
+*/
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, main, menu, nav, section, summary {
+  /* Add correct display for IE 9- and some newer browsers */
+  display: block;
+}
+
+body, html {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f6f5;
+
+  font-family: "Averta Std", Arial, sans-serif;
+  color: #332E2B;
+
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: #E95C0F;
+  color: #2DB8BD;
+}
