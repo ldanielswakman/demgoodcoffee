@@ -11,16 +11,4 @@
   <?= css('assets/css/style.css') ?>
 
 </head>
-<body>
-
-  <header class="header wrap wide" role="banner">
-    <div class="grid">
-
-      <div class="branding column">
-        <a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a>
-      </div>
-
-      <? snippet('logo') ?>
-
-    </div>
-  </header>
+<body class="page--<?= $page->template() ?>">

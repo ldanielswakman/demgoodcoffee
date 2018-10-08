@@ -1,10 +1,11 @@
 /*
 Colours
 
-$orange: #684A3B;
-$teal: #684A3B;
-$dark: #684A3B;
+$orange: #E95C0F;
+$teal: #2DB8BD;
+$dark: #332E2B;
 $brown: #684A3B;
+$greylightest: #f7f6f5;
 
 */
 
@@ -25,9 +26,10 @@ footer, header, main, menu, nav, section, summary {
 body, html {
   width: 100%;
   min-height: 100%;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: #f7f6f5;
+  background-color: #fff;
 
   font-family: "Averta Std", Arial, sans-serif;
   color: #332E2B;
@@ -41,4 +43,104 @@ a {
   text-decoration: none;
   color: #E95C0F;
   color: #2DB8BD;
+}
+
+
+
+/* Button */
+.button {
+  display: inline-flex;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid currentColor;
+  background-color: transparent;
+  font-weight: 600;
+  color: #E95C0F;
+}
+.button:hover {
+  background: #E95C0F;
+  border-color: transparent;
+  color: #fff;
+}
+.button.button--about {
+  color: #2DB8BD;
+}
+.button.button--about:hover {
+  background: #2DB8BD;
+  border-color: transparent;
+  color: #fff;
+}
+
+
+
+/* Home */
+.page--home .logo,
+.page--home .graphic,
+.page--home .lang-switcher {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+}
+.page--home .logo {
+  top: 2rem;
+}
+.graphic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  pointer-events: none;
+}
+.graphic img {
+  width: 50vh;
+  max-width: 70vw;
+  flex: 0;
+}
+.page--home .lang-switcher {
+  top: 0;
+  text-align: right;
+}
+.page--home .lang-switcher a {
+  display: inline-block;
+  padding: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .page--home .lang-switcher {
+    top: auto;
+    bottom: 2rem;
+    text-align: center;
+  }
+}
+.lang-switcher a {
+  color: #684A3B;
+}
+.page--home .logo .text {
+  display: none;
+}
+
+.page--home main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100vh;
+}
+.page--home main .panel {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.panel.panel--right {
+  background: #f7f6f5;
+}
+@media screen and (min-width: 768px) {
+  .page--home main {
+    flex-direction: row;
+  }
+  .panel.panel--left {
+    padding-right: 15vw;
+  }
+  .panel.panel--right {
+    padding-left: 15vw;
+  }
 }

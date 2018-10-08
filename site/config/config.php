@@ -28,3 +28,20 @@ make Kirby work. For more fine-grained configuration
 of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
+
+// Define Languages
+c::set('languages', array(
+  array(
+    'code'    => 'tr',
+    'name'    => 'Türkçe',
+    'default' => true,
+    'locale'  => 'tr_TR',
+    'url'     => '/',
+  ),
+  array(
+    'code'    => 'en',
+    'name'    => 'English',
+    'locale'  => 'en_UK',
+    'url'     => '/en',
+  ),
+));
