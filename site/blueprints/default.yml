@@ -1,5 +1,9 @@
 title: Page
 
+files:
+  fields:
+    alt: image-alt
+
 fields:
   title:
     label: Title

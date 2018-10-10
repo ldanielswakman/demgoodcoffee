@@ -6,7 +6,9 @@
 
   	<h1><?= $page->title()->html() ?></h1>
 
-    <?= $page->text()->kirbytext() ?>
+  	<? snippet('cover-image') ?>
+
+    <div class="content"><?= $page->text()->kirbytext() ?></div>
 
   </main>
 

@@ -2,10 +2,10 @@
 	<? $pages = $site->pages()->filterBy('section', $section); ?>
 
 	<nav>
-		<ul>
+		<ol>
 			<? foreach ($pages as $p): ?>
-				<li><a href="<?= $p->url() ?>"><?= $p->title() ?></a></li>
+				<li<?= r($p->isOpen(), ' class="isActive"') ?>><a href="<?= $p->url() ?>"><?= $p->title() ?></a></li>
 				<? endforeach ?>
-		</ul>
+		</ol>
 	</nav>
 <? endif ?>

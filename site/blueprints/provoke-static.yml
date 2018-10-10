@@ -2,6 +2,10 @@ title: Provoke page
 
 pages: false
 
+files:
+  fields:
+    alt: image-alt
+
 fields:
   title:
     label: Title
@@ -11,6 +15,10 @@ fields:
     label: Section
     type: hidden
     default: provoke
+
+  coverimage:
+    label: Cover Image
+    type: image
 
   text:
     label: Text

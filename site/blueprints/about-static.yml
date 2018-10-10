@@ -2,6 +2,10 @@ title: About page
 
 pages: false
 
+files:
+  fields:
+    alt: image-alt
+
 fields:
   title:
     label: Title

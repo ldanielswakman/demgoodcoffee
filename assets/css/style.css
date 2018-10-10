@@ -46,6 +46,23 @@ a {
 }
 
 
+/* Figure */
+figure img {
+  max-width: 100%;
+}
+
+
+/* Selection */
+::-moz-selection {
+  background: #684A3B;
+  color: #fff;
+}
+::selection {
+  background: #684A3B;
+  color: #fff;
+}
+
+
 
 /* Button */
 .button {
@@ -67,6 +84,42 @@ a {
 .button.button--about:hover {
   background: #2DB8BD;
   border-color: transparent;
+  color: #fff;
+}
+
+
+
+/* Logo */
+.logo .text {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+
+
+
+
+/* Nav */
+nav ol {
+  display: flex;
+}
+nav ol a {
+  display: block;
+  padding: 1rem;
+  background: #f7f6f5;
+}
+body[class*="page--provoke"] nav ol a {
+  color: #E95C0F;
+}
+body[class*="page--about"] nav ol a {
+  color: #2DB8BD;
+}
+body[class*="page--provoke"] nav ol li.isActive a {
+  background: #E95C0F;
+  color: #fff;
+}
+body[class*="page--about"] nav ol li.isActive a {
+  background: #2DB8BD;
   color: #fff;
 }
 

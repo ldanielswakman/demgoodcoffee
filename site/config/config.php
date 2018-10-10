@@ -82,7 +82,7 @@ Widgets (on Panel Dashboard)
 c::set('panel.widgets', array(
   'account'  => true,
   'history'  => true,
-  'pages'    => false,
+  'pages'    => true,
   'pages2'    => true,
   'site'     => false,
 ));

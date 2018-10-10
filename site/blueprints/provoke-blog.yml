@@ -3,6 +3,10 @@ title: Provoke - Be curious
 options: 
   template: false
   delete: false
+  
+files:
+  fields:
+    alt: image-alt
 
 pages:
   template: article

@@ -7,3 +7,11 @@ Section: provoke
 ----
 
 Text: 
+
+A page with four sections (deaf, sign camp, gallaudet stories, provoke action). There will be a large-sized number (percentage) in each of the four sections. As these numbers will need to be updated on a weekly basis by us, the process of doing so should be idiot-proof. 
+
+Each section (project) will have three to four titles under which the measured impact is shown (advocacy, education, etc.). Additionally, as the impact reports are written and uploaded, they should be listed as a downloadable link under/next to their related titles.
+
+----
+
+Coverimage: drink-coffee-cover.jpg
