@@ -1,0 +1,17 @@
+title: Provoke page
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  section:
+    label: Section
+    type: hidden
+    default: provoke
+
+  text:
+    label: Text
+    type:  textarea

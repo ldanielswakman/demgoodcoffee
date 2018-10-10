@@ -1,0 +1,12 @@
+pages:
+  template:
+    - default
+    - provoke-static
+    - about-static
+
+files:
+  fields:
+    alt:
+      label: Alt attribute
+      type: text
+      icon: font

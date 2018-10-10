@@ -1,0 +1,9 @@
+Title: Be Curious
+
+----
+
+Text: This is the 'Be curious' page
+
+----
+
+Section: provoke

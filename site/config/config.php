@@ -45,3 +45,23 @@ c::set('languages', array(
     'url'     => '/en',
   ),
 ));
+
+// Routes
+c::set('routes', [
+  [
+    'pattern' => 'about',
+    'action' => function () {
+      $first = site()->pages()->filterBy('section', 'about')->first();
+      // TODO: Make this language-specific
+      go($first);
+    }
+  ],
+  [
+    'pattern' => 'provoke',
+    'action' => function () {
+      $first = site()->pages()->filterBy('section', 'provoke')->first();
+      // TODO: Make this language-specific
+      go($first);
+    }
+  ],
+]);

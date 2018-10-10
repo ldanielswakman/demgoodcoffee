@@ -1,0 +1,21 @@
+title: Projects
+
+options: 
+  template: false
+  delete: false
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  section:
+    label: Section
+    type: hidden
+    default: about
+
+  text:
+    label: Text
+    type:  textarea

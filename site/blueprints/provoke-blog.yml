@@ -1,0 +1,26 @@
+title: Provoke - Be curious
+
+options: 
+  template: false
+  delete: false
+
+pages:
+  template: article
+  sort: flip
+  num: date
+
+files: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  section:
+    label: Section
+    type: hidden
+    default: provoke
+
+  text:
+    label: Text
+    type:  textarea
