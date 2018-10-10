@@ -2,7 +2,7 @@ Title: Impact Meter
 
 ----
 
-Intro: Yay! If you are seeing this, the installation of Kirby worked. :-)
+Section: about
 
 ----
 

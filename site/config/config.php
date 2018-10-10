@@ -17,19 +17,15 @@ for more information: http://getkirby.com/license
 
 c::set('license', 'put your license key here');
 
+
+
 /*
 
 ---------------------------------------
-Kirby Configuration
+Languages
 ---------------------------------------
 
-By default you don't have to configure anything to
-make Kirby work. For more fine-grained configuration
-of the system, please check out http://getkirby.com/docs/advanced/options
-
 */
-
-// Define Languages
 c::set('languages', array(
   array(
     'code'    => 'tr',
@@ -46,7 +42,15 @@ c::set('languages', array(
   ),
 ));
 
-// Routes
+
+
+/*
+
+---------------------------------------
+Routes
+---------------------------------------
+
+*/
 c::set('routes', [
   [
     'pattern' => 'about',
@@ -65,3 +69,20 @@ c::set('routes', [
     }
   ],
 ]);
+
+
+
+/*
+
+---------------------------------------
+Widgets (on Panel Dashboard)
+---------------------------------------
+
+*/
+c::set('panel.widgets', array(
+  'account'  => true,
+  'history'  => true,
+  'pages'    => false,
+  'pages2'    => true,
+  'site'     => false,
+));

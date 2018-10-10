@@ -1,8 +1,8 @@
 pages:
   template:
-    - default
     - provoke-static
     - about-static
+    - default
 
 files:
   fields:
