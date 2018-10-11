@@ -38,6 +38,9 @@ body, html {
   font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body[class*="page--about"] {
+  background: #f7f6f5;
+}
 
 a {
   text-decoration: none;
@@ -89,6 +92,25 @@ figure img {
 
 
 
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+body[class*="page--provoke"] header {
+  background: #f7f6f5;
+}
+body[class*="page--about"] header {
+  background: #fff;
+}
+header .logo svg {
+  max-width: 3rem;
+  margin-bottom: -0.5rem;
+}
+
 /* Logo */
 .logo .text {
   position: absolute;
@@ -100,15 +122,34 @@ figure img {
 
 
 /* Nav */
+nav {
+  flex: 1;
+  flex-basis: 100%;
+  max-width: 100vw;
+  overflow: auto;
+  background: #fff;
+}
+body[class*="page--provoke"] nav {
+  background: #f7f6f5;
+}
 nav ol {
   display: flex;
 }
+nav li {
+  flex: 1;
+}
 nav ol a {
   display: block;
+  height: 100%;
   padding: 1rem;
   background: #f7f6f5;
+  text-align: center;
+}
+nav ol li + li a {
+  margin-left: 0.25rem;
 }
 body[class*="page--provoke"] nav ol a {
+  background: #fff;
   color: #E95C0F;
 }
 body[class*="page--about"] nav ol a {
@@ -121,6 +162,9 @@ body[class*="page--provoke"] nav ol li.isActive a {
 body[class*="page--about"] nav ol li.isActive a {
   background: #2DB8BD;
   color: #fff;
+}
+nav .text {
+  white-space: nowrap;
 }
 
 
@@ -196,4 +240,24 @@ body[class*="page--about"] nav ol li.isActive a {
   .panel.panel--right {
     padding-left: 15vw;
   }
+}
+
+
+
+/* Cover image */
+.cover-image {
+  max-height: 60vw;
+  overflow: hidden;
+}
+
+
+
+/* Content */
+.story {
+  padding: 1.5rem;
+}
+.story p {
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  opacity: 0.8;
 }

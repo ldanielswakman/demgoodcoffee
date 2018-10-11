@@ -4,11 +4,11 @@
 
   <main class="main" role="main">
 
-  	<h1><?= $page->title()->html() ?></h1>
+  	<h1><? //= $page->title()->html() ?></h1>
 
   	<? snippet('cover-image') ?>
 
-    <div class="content"><?= $page->text()->kirbytext() ?></div>
+    <div class="story"><?= $page->text()->kirbytext() ?></div>
 
   </main>
 

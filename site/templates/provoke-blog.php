@@ -4,7 +4,7 @@
 
   <main class="main" role="main">
 
-  	<h1><?= $page->title()->html() ?></h1>
+  	<h1><? //= $page->title()->html() ?></h1>
 
   	<? snippet('cover-image') ?>
 

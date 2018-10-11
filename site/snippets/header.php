@@ -14,7 +14,7 @@
 		<a class="button button--provoke" href="<?= url('provoke') ?>"><?= l::get('provoke_action') ?></a>
 	<? endif ?>
 
-	<? // Menu ?>
-	<? snippet('nav', ['section' => isset($section) ? $section : 'about']) ?>
-
 </header>
+
+<? // Menu ?>
+<? snippet('nav', ['section' => isset($section) ? $section : 'about']) ?>
