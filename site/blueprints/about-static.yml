@@ -11,6 +11,11 @@ fields:
     label: Title
     type:  text
 
+  coverimage:
+    label: Cover image
+    type: image
+    translate: false
+
   section:
     label: Section
     type: hidden

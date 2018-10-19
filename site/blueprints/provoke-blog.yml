@@ -12,6 +12,8 @@ pages:
   template: article
   sort: flip
   num: date
+  template:
+    - provoke-blog-detail
 
 files: false
 

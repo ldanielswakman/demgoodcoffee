@@ -49,6 +49,34 @@ a {
 }
 
 
+
+
+
+/* Layout */
+/* Show/hide nav at the right places */
+main nav { display: none; }
+@media screen and (min-width: 768px) {
+  header + nav { display: none; }
+  main nav { display: block; }
+}
+/* Main layout */
+@media screen and (min-width: 768px) {
+  .layout {
+    display: flex;
+    min-height: 100vh;
+  }
+  .layout main {
+    flex-basis: 50%;
+    min-width: 36rem;
+  }
+  .layout .cover-image {
+    flex-basis: 50%;
+  }
+}
+
+
+
+
 /* Figure */
 figure img {
   max-width: 100%;
@@ -93,12 +121,16 @@ figure img {
 
 
 
+
 /* Header */
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
+}
+@media screen and (min-width: 768px) {
+  header { flex-direction: column; }
 }
 body[class*="page--provoke"] header {
   background: #f7f6f5;
@@ -165,6 +197,7 @@ body[class*="page--about"] nav ol li.isActive a {
 }
 nav .text {
   white-space: nowrap;
+  font-weight: bold;
 }
 
 
@@ -249,15 +282,90 @@ nav .text {
   max-height: 60vw;
   overflow: hidden;
 }
+@media screen and (min-width: 768px) {
+  .cover-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+    max-height: 100%;
+  }
+  .cover-image img {
+    object-fit: cover;
+  }
+}
 
 
 
 /* Content */
-.story {
-  padding: 1.5rem;
+/*.content {
+  padding: 1rem;
 }
-.story p {
+@media screen and (min-width: 768px) {
+  .content {
+    padding: 2rem;
+  }
+}*/
+.content p {
+  margin-bottom: 1rem;
   font-size: 1.125rem;
   line-height: 1.625rem;
   opacity: 0.8;
+}
+main {
+  padding: 1rem;
+}
+@media screen and (min-width: 768px) {
+  main {
+    padding: 2rem;
+  }
+  main nav { margin: 2rem 0; }
+}
+
+
+
+
+/* Projects */
+.tile-index {
+  padding: 0 1rem 1rem;
+}
+.tile {
+  display: block;
+  margin: 1rem 1rem 2rem;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid rgba(51, 36, 29, 0.1);
+  box-shadow: -0.5rem 0.5rem 0 rgba(104, 74, 59, 0.1);
+  color: inherit;
+}
+.tile h2 {
+}
+.tile .description,
+.tile .read-less,
+.tile.isExpanded .excerpt,
+.tile.isExpanded .read-more {
+  display: none;
+}
+.tile.isExpanded .description,
+.tile.isExpanded .read-less {
+  display: block;
+}
+.tile .description,
+.tile .excerpt {
+  margin-top: 1rem;
+}
+.tile .actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.tile .actions a {
+  color: #E95C0F;
+}
+.tile .actions a.report {
+  color: #684A3B;
+}
+.tile .read-more {
+  display: flex;
+  justify-content: space-between;
 }

@@ -1,0 +1,15 @@
+Title: Act
+
+----
+
+Section: provoke
+
+----
+
+Text: 
+
+<h2 style="color: #2DB8BD;">So you want to get involved?</h2>
+<h2 style="color: #E95C0F;">Great! It's very easy.</h2>
+
+<br><br><br>
+[FORM]

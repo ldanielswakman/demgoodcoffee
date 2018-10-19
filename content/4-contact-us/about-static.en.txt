@@ -1,4 +1,4 @@
-Title: İletişim
+Title: Contact Us
 
 ----
 
@@ -17,7 +17,3 @@ Yeşilce Mahallesi, Levent Sanayi, Emirşah Sokagi No. 21 4, 34418 Kağıthane, 
 #### social
 (link: https://www.instagram.com/demgoodcoffee/ text: Instagram)
 (link: https://www.facebook.com/demgoodcoffee text: Facebook)
-
-----
-
-Coverimage: map.jpg

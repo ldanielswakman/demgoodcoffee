@@ -1,4 +1,4 @@
-Title: Act
+Title: Harekete geç
 
 ----
 
@@ -7,3 +7,13 @@ Section: provoke
 ----
 
 Text: 
+
+<h2 style="color: #2DB8BD;">Yani dahil olmak istiyor musun?</h2>
+<h2 style="color: #E95C0F;">Harika! Çok kolaydır.</h2>
+
+<br><br><br>
+[FORM]
+
+----
+
+Coverimage: 

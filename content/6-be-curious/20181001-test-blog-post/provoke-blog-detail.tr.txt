@@ -1,8 +1,4 @@
-Title: Pop-up
-
-----
-
-Section: about
+Title: Test blog post
 
 ----
 
@@ -14,4 +10,12 @@ Adanaya beğendim değerli olduğu için çobanın masaya doğru dışarı çık
 
 ----
 
-Coverimage: pop-up-photo.jpg
+Coverimage: coffee-photo.jpg
+
+----
+
+Section: provoke
+
+----
+
+Date: 2018-10-01

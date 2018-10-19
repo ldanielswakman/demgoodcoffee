@@ -23,3 +23,30 @@ fields:
   text:
     label: Text
     type:  textarea
+
+  projects:
+    label: Projects
+    type: structure
+    fields:
+      title:
+        label: Title
+        type: text
+      description:
+        label: Description
+        type: textarea
+      impact_value_top:
+        label: Impact meter (top)
+        type: number
+        width: 2/5
+      impact_value_between:
+        label: /
+        type: info
+        width: 1/5
+      impact_value_bottom:
+        label: Impact meter (bottom)
+        type: number
+        width: 2/5
+      report:
+        label: Report PDF
+        type: select
+        options: files

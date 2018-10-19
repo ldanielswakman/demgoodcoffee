@@ -1,4 +1,4 @@
-title: Provoke page
+title: Blog post
 
 pages: false
 
@@ -15,6 +15,14 @@ fields:
     label: Cover image
     type: image
     translate: false
+    width: 3/5
+
+  date:
+    label: Publish date
+    type: date
+    translate: false
+    default: today
+    width: 2/5
 
   section:
     label: Section

@@ -10,5 +10,7 @@
 
   <?= css('assets/css/style.css') ?>
 
+  <?= js('https://code.jquery.com/jquery-3.3.1.min.js') ?>
+
 </head>
 <body class="page--<?= $page->template() ?>">

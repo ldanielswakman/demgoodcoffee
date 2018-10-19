@@ -1,4 +1,4 @@
-Title: Impact Meter
+Title: Darbe Ölçer
 
 ----
 
@@ -6,15 +6,33 @@ Section: about
 
 ----
 
-Text: 
+Text: This is a potential (optional) intro sentence
 
-## Get started
+----
 
-- Go to the (link: panel text: Panel) to give Kirby's admin interface a try
-- Check out the (link: http://getkirby.com/docs text: docs) and start building your own site
-- Follow (twitter: @getkirby) on Twitter for updates
-- Visit the (link: http://forum.getkirby.com text: forum) to connect with other Kirby users
-- Sign up to (link: https://getkirby.com/#kosmos text: Kirby Kosmos), our monthly newsletter
-- (link: http://getkirby.com/support text: Get in contact) if you need support.
+Projects: 
 
-**Have fun with Kirby!**
+- 
+  title: Deaf
+  description: >
+    As these numbers will need to be updated
+    on a weekly basis by us, the process of
+    doing so should be idiot-proof. As these
+    numbers will need to be updated on a
+    weekly basis by us, the process of doing
+    so should be idiot-proof.
+  report: bardak_projesi_brosur_baski.pdf
+  impact_value_top: "1"
+  impact_value_bottom: "90000"
+- 
+  title: Stories from Galleaudet
+  description: >
+    As these numbers will need to be updated
+    on a weekly basis by us, the process of
+    doing so should be idiot-proof. As these
+    numbers will need to be updated on a
+    weekly basis by us, the process of doing
+    so should be idiot-proof.
+  impact_value_top: "1"
+  impact_value_bottom: "2"
+  report: ""

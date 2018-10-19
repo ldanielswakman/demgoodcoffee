@@ -1,15 +1,21 @@
 <? snippet('head') ?>
 
-	<? snippet('header', ['section' => 'about']) ?>
+	<div class="layout">
 
-  <main class="main" role="main">
+		<? snippet('header', ['section' => 'about']) ?>
 
-  	<h1><? //= $page->title()->html() ?></h1>
+	  <main class="main" role="main">
 
-  	<? snippet('cover-image') ?>
+	  	<h1><?= $page->title()->html() ?></h1>
 
-    <div class="content"><?= $page->text()->kirbytext() ?></div>
+	  	<? snippet('nav', ['section' => 'about']) ?>
 
-  </main>
+	    <div class="content"><?= $page->text()->kirbytext() ?></div>
+
+	    <? snippet('tile-index', ['tiles' => $page->projects()->toStructure() ]) ?>
+
+	  </main>
+	  
+	</div>
 
 <? snippet('footer') ?>

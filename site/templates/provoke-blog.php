@@ -1,15 +1,23 @@
 <? snippet('head') ?>
 
-	<? snippet('header', ['section' => 'provoke']) ?>
+	<div class="layout">
 
-  <main class="main" role="main">
+		<? snippet('header', ['section' => 'provoke']) ?>
 
-  	<h1><? //= $page->title()->html() ?></h1>
+		<? snippet('cover-image') ?>
 
-  	<? snippet('cover-image') ?>
+	  <main class="main" role="main">
 
-    <div class="content"><?= $page->text()->kirbytext() ?></div>
+	  	<h1><?= $page->title()->html() ?></h1>
 
-  </main>
+	  	<? snippet('nav', ['section' => 'provoke']) ?>
+
+	    <div class="content"><?= $page->text()->kirbytext() ?></div>
+
+	    <? snippet('tile-index', ['tiles' => $page->children()->visible()->flip() ]) ?>
+
+	  </main>
+	  
+	</div>
 
 <? snippet('footer') ?>

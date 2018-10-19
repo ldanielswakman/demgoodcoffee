@@ -1,4 +1,4 @@
-Title: Drink Coffee
+Title: Kahve iç
 
 ----
 
@@ -14,4 +14,4 @@ Each section (project) will have three to four titles under which the measured i
 
 ----
 
-Coverimage: drink-coffee-cover.jpg
+Coverimage: drink-coffee-photo.jpg

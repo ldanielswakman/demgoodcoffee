@@ -16,6 +16,7 @@ for more information: http://getkirby.com/license
 */
 
 c::set('license', 'put your license key here');
+c::set('debug', true);
 
 
 
@@ -82,7 +83,7 @@ Widgets (on Panel Dashboard)
 c::set('panel.widgets', array(
   'account'  => true,
   'history'  => true,
-  'pages'    => true,
+  'pages'    => false,
   'pages2'    => true,
   'site'     => false,
 ));
