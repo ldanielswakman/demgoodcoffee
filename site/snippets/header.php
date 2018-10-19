@@ -7,6 +7,8 @@
     <? snippet('logo', ['colour' => $colour]) ?>
   </a>
 
+	<? snippet('lang-switcher') ?>
+
   <? // Action button ?>
 	<? if(isset($section) && $section == 'provoke'): ?>
 		<a class="button button--about" href="<?= url('about') ?>"><?= l::get('about_us') ?></a>

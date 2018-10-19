@@ -214,6 +214,17 @@ nav .text {
 .page--home .logo {
   top: 2rem;
 }
+.page--home .logo svg {
+  max-height: 6rem;
+}
+@media screen and (min-width: 768px) {
+  .page--home .logo svg {
+    max-height: 8rem;
+  }
+}
+.page--home main {
+  padding: 0;
+}
 .graphic {
   display: flex;
   justify-content: center;

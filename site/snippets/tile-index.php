@@ -4,7 +4,13 @@
 
   <? foreach($tiles as $tile) : ?>
 
-    <?= ($tile->url()) ? '<a href="' . $tile->url() . '" class="tile">' : '<div class="tile">' ?>
+    <?
+    $isLink = false;
+    if (strlen($tile->url()) > 0) {
+      $isLink = true;
+    }
+    ?>
+    <?= ($isLink) ? '<a href="' . $tile->url() . '" class="tile">' : '<div class="tile">' ?>
 
       <?
       $descr = '';
@@ -27,7 +33,7 @@
   		</div>
 
   		<object class="actions">
-        <? if ($tile->url()) : ?>
+        <? if ($isLink) : ?>
           <a href="<?= $tile->url() ?>"><?= l::get('read_more') ?></a>
         <? else : ?>
       		<a href="#" onclick="$(this).closest('.tile').toggleClass('isExpanded')">
@@ -41,7 +47,7 @@
     		<? endif ?>
     	</object>
 
-  	<?= ($tile->url()) ? '</a>' : '</div>' ?>
+  	<?= ($isLink) ? '</a>' : '</div>' ?>
   <? endforeach ?>
 
 </div>

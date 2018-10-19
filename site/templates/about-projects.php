@@ -1,4 +1,4 @@
-<? snippet('head') ?>
+ <? snippet('head') ?>
 
 	<div class="layout">
 
