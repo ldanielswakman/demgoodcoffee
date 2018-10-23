@@ -365,9 +365,17 @@ main {
 
 /* Projects */
 .tile-index {
-  padding: 0 1rem 1rem;
+  margin: 0 -0.5rem;
+  padding: 0 0 1rem;
+}
+@media screen and (min-width: 768px) {
+  .tile-index {
+    margin: 0;
+    padding: 0 1rem 1rem;
+  }
 }
 .tile {
+  position: relative;
   display: block;
   margin: 1rem 1rem 2rem;
   padding: 1rem;
@@ -406,4 +414,18 @@ main {
 .tile .read-more {
   display: flex;
   justify-content: space-between;
+}
+.tile .stats {
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+  padding: 1rem;
+  background: #2DB8BD;
+
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.tile .stats .separator {
+  opacity: 0.5;
 }

@@ -23,7 +23,7 @@ Projects:
     so should be idiot-proof.
   report: bardak_projesi_brosur_baski.pdf
   impact_value_top: "1"
-  impact_value_bottom: "90000"
+  impact_value_bottom: "90.000"
 - 
   title: Stories from Galleaudet
   description: >

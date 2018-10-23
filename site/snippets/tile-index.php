@@ -18,6 +18,18 @@
       if($tile->text()->isNotEmpty()) { $descr = $tile->text()->html(); }
       ?>
 
+      <?
+      // Impact meter stats
+      if (strlen($tile->impact_value_top()) > 0) :
+
+        $str = '<span class="top">' . $tile->impact_value_top() . '</span>';
+        if (strlen($tile->impact_value_bottom()) > 0) {
+          $str .= '<span class="separator">/</span><span class="bottom">' . $tile->impact_value_bottom() . '</span>';
+        }
+      ?>
+        <div class="stats"><?= $str ?></div>
+      <? endif ?>
+
   		<h2><?= $tile->title()->html() ?></h2>
 
       <? if ($tile->date()) : ?>
