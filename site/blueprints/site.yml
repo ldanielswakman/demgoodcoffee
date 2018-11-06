@@ -1,12 +1,15 @@
-pages:
-  template:
-    - provoke-static
-    - about-static
-    - default
+title: Site
 
-files:
-  fields:
-    alt:
-      label: Alt attribute
-      type: text
-      icon: font
+fields:
+  title:
+    label: Title
+    type:  text
+
+  description:
+    label: Description
+    type:  textarea
+    buttons: 
+
+  meta_image: 
+    label: Meta Image (for social sharing etc)
+    type: image
