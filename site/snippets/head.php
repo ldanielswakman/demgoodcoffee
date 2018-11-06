@@ -8,7 +8,11 @@
 
   <?= css('assets/css/style.css') ?>
 
-  <?= js('https://code.jquery.com/jquery-3.3.1.min.js') ?>
+  <? if (c::get('env') === 'DEV') : ?>
+  	<?= js('assets/js/jquery-3.3.1.min.js') ?>
+	<? else : ?>
+		<?= js('https://code.jquery.com/jquery-3.3.1.min.js') ?>
+  <? endif ?>
 
 </head>
 <body class="page--<?= $page->template() ?>">
