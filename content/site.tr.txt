@@ -7,3 +7,7 @@ Author: L Daniel Swakman, ldaniel.eu
 ----
 
 Description: This is demgoodcoffee's website
+
+----
+
+Meta-image: meta-image.jpg

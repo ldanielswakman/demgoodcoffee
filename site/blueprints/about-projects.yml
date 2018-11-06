@@ -22,7 +22,7 @@ fields:
 
   text:
     label: Text
-    type:  textarea
+    type:  markdown
 
   projects:
     label: Projects
