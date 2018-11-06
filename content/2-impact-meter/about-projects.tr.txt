@@ -1,4 +1,4 @@
-Title: Darbe Ölçer
+Title: Etki Ölçer
 
 ----
 
@@ -35,4 +35,10 @@ Projects:
     so should be idiot-proof.
   impact_value_top: "1"
   impact_value_bottom: "2"
+  report: ""
+- 
+  title: Project 3
+  description: denem deneme deneme
+  impact_value_top: ""
+  impact_value_bottom: ""
   report: ""
