@@ -496,3 +496,61 @@ main {
 .tile .stats .separator {
   opacity: 0.5;
 }
+
+
+
+/* Mailchimp Form */
+#mc_embed_signup {
+  margin: 0.5rem 0;
+  background: #fff;
+  /*border: 1px solid rgba(51, 36, 29, 0.1);*/
+  box-shadow: -0.5rem 0.5rem 0 #EAE9E8; /*rgba(104, 74, 59, 0.1);*/
+}
+#mc_embed_signup .mc-field-group {
+  position: relative;
+}
+#mc_embed_signup h2, #mc_embed_signup .indicates-required  {
+  display: none;
+}
+#mc_embed_signup .mc-field-group label {
+  position: absolute;
+  top: 0.375rem;
+  left: 1rem;
+  font-size: 0.75rem;
+  opacity: 0.3;
+}
+#mc_embed_signup .mc-field-group input {
+  position: relative;
+  z-index: 1;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  height: 3.75rem;
+  width: 100%;
+  margin-top: -1px;
+  padding: 1.125rem 1rem 0.875rem;
+  background: none;
+  color: inherit;
+
+  font: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+  border: 1px solid #EAE9E8; /*rgba(19, 43, 20, 0.1);*/
+}
+#mc_embed_signup .mc-field-group input:focus {
+  outline: none;
+  border-color: #C1BDBB; /*rgba(19, 43, 20, 0.3);*/
+  z-index: 2;
+}
+#mc_embed_signup .clear {
+  display: flex;
+  justify-content: flex-end;
+}
+#mc_embed_signup input[type="submit"] {
+  margin-top: -1px;
+  background: #E95C0F;
+  color: white;
+  font: inherit;
+}
