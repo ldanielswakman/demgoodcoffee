@@ -64,6 +64,8 @@ c::set('panel.widgets', array(
   'account'  => true,
   'history'  => true,
   'pages'    => false,
-  'pages2'    => true,
+  'pages2'   => true,
+  'live'     => true,
+  'help_docs'=> true,
   'site'     => false,
 ));
