@@ -16,4 +16,4 @@ Text:
 
 ----
 
-Coverimage: 
+Coverimage: bar.jpg
