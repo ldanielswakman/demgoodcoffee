@@ -10,8 +10,6 @@
 
 	  	<h1><?= $page->title()->html() ?></h1>
 
-	  	<? snippet('nav', ['section' => 'provoke']) ?>
-
 	    <div class="content"><?= $page->text()->kirbytext() ?></div>
 
 	    <? if($page->next() && $page->next()->isVisible()): ?>

@@ -80,13 +80,6 @@ a {
 
 
 /* Layout */
-/* Show/hide nav at the right places */
-main nav { display: none; }
-@media screen and (min-width: 48rem) {
-  header + nav { display: none; }
-  main nav { display: inline-block; }
-}
-/* Main layout */
 @media screen and (min-width: 48rem) {
   .layout {
     display: flex;
@@ -161,7 +154,10 @@ header {
   padding: 1rem;
 }
 @media screen and (min-width: 48rem) {
-  header { min-width: 12rem; flex-direction: column; }
+  header {
+    min-width: 12rem;
+    flex-direction: column;
+  }
 }
 body[class*="page--provoke"] header {
   background: #f7f6f5;
@@ -183,6 +179,9 @@ header .logo svg {
 header .button {
   white-space: nowrap;
 }
+header {
+  flex-wrap: wrap;
+}
 
 
 
@@ -191,15 +190,25 @@ header .button {
 nav {
   flex: 1;
   flex-basis: 100%;
+  order: 5;
+
   max-width: 100vw;
+  margin: 1rem -1rem -1rem;
+
   overflow: auto;
   background: #fff;
+}
+@media screen and (min-width: 48rem) {
+  nav { order: inherit; flex: 0; flex-basis: auto; margin-bottom: 1rem; width: calc(100% + 2rem); }
 }
 body[class*="page--provoke"] nav {
   background: #f7f6f5;
 }
 nav ol {
   display: flex;
+}
+@media screen and (min-width: 48rem) {
+  nav ol { flex-direction: column; }
 }
 nav li {
   flex: 1;
@@ -215,6 +224,11 @@ nav ol a {
   text-align: center;
 }
 @media screen and (min-width: 48rem) {
+  nav ol a {
+    background: transparent;
+  }
+}
+@media screen and (min-width: 48rem) {
   nav ol a { padding: 1rem 2rem; }
 }
 nav ol li + li a {
@@ -223,6 +237,11 @@ nav ol li + li a {
 body[class*="page--provoke"] nav ol a {
   background: #fff;
   color: #E95C0F;
+}
+@media screen and (min-width: 48rem) {
+  body[class*="page--provoke"] nav ol a {
+    background: transparent;
+  }
 }
 body[class*="page--about"] nav ol a {
   color: #2DB8BD;
@@ -437,7 +456,9 @@ main {
   main {
     padding: 2rem;
   }
-  main nav { margin: 2rem 0; }
+}
+main h1 {
+  margin-bottom: 1.5rem;
 }
 
 
