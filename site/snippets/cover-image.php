@@ -1,8 +1,9 @@
-<? if($page->coverimage()->isNotEmpty()): ?>
+<? $p = isset($p) ? $p : $page ?>
+<? if($p->coverimage()->isNotEmpty()): ?>
 
-	<? $img = image($page->coverimage()) ?>
+	<? $img = $p->image($p->coverimage()) ?>
 	<figure class="cover-image">
-		<div class="bg" style="background: url('<?= $img->thumb(['width' => 1200])->url() ?>')"></div>
+		<div class="bg" style="background-image: url('<?= $img->thumb(['width' => 1200])->url() ?>')"></div>
 		<img src="<?= $img->thumb(['width' => 1200])->url() ?>" alt="<?= $img->alt() ?>" title="<?= $img->alt() ?>" />
 	</figure>
 	
