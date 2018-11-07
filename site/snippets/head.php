@@ -14,5 +14,7 @@
 		<?= js('https://code.jquery.com/jquery-3.3.1.min.js') ?>
   <? endif ?>
 
+  <? snippet('google-analytics') ?>
+
 </head>
 <body class="page--<?= $page->template() ?>">
