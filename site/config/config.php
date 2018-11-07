@@ -7,22 +7,34 @@ Languages
 ---------------------------------------
 
 */
+
+$locale_tr = array(
+  LC_COLLATE  => 'tr_TR.utf8',
+  LC_MONETARY => 'tr_TR.utf8',
+  LC_NUMERIC  => 'tr_TR.utf8',
+  LC_TIME     => 'tr_TR.utf8',
+  LC_MESSAGES => 'tr_TR.utf8',
+  LC_CTYPE    => 'en_US.utf8'
+);
+
 c::set('languages', array(
   array(
     'code'    => 'tr',
     'name'    => 'Türkçe',
     'default' => true,
-    'locale'  => 'tr_TR',
+    'locale'  => $locale_tr,
     'url'     => '/',
   ),
   array(
     'code'    => 'en',
     'name'    => 'English',
-    'locale'  => 'en_UK',
+    'locale'  => 'en_UK.UTF-8',
     'url'     => '/en',
   ),
 ));
 
+
+c::set('debug', true);
 
 
 /*
