@@ -355,6 +355,13 @@ nav .text {
 
 
 
+/* Page: error */
+.page--error main {
+  margin: 0 auto;
+}
+
+
+
 /* Blog detail page */
 .next-article {
   position: relative;
