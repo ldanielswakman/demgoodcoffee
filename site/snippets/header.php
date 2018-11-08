@@ -11,14 +11,17 @@
 	// Menu
 	snippet('nav', ['section' => isset($section) ? $section : 'about']);
 
+
 	// Lang switcher
 	snippet('lang-switcher');
 
 	// Action button
 	if(isset($section) && $section == 'provoke'): ?>
-		<a class="button button--about" href="<?= url('about') ?>"><?= l::get('about_us') ?></a>
+		<a class="button button--about button--arrow-left" href="<?= $site->language()->url() . '/about' ?>"><?= l::get('about_us') ?></a>
 	<? else: ?>
-		<a class="button button--provoke" href="<?= url('provoke') ?>"><?= l::get('provoke_action') ?></a>
-	<? endif ?>
+		<a class="button button--provoke button--arrow-right" href="<?= $site->language()->url() . '/provoke' ?>"><?= l::get('provoke_action') ?></a>
+	<?
+	endif;
+	?>
 
 </header>

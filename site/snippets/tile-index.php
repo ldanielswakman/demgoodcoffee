@@ -32,9 +32,9 @@
 
   		<h2><?= $tile->title()->html() ?></h2>
 
-      <? if ($tile->date()) : ?>
-        <p class="meta" style="opacity: 0.5"><?= date('d M Y', $tile->date()) ?></p>
-      <? endif; ?>
+      <p class="meta" style="opacity: 0.5">
+        <?= (strlen($tile->date()) > 0) ? $tile->date('%d %B %Y'): $tile->modified('%d %B %Y'); ?>
+      </p>
 
   		<div class="excerpt">
   			<p><?= excerpt($descr, '24', 'words') ?></p>

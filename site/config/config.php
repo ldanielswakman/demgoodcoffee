@@ -9,12 +9,12 @@ Languages
 */
 
 $locale_tr = array(
-  LC_COLLATE  => 'tr_TR.utf8',
-  LC_MONETARY => 'tr_TR.utf8',
-  LC_NUMERIC  => 'tr_TR.utf8',
-  LC_TIME     => 'tr_TR.utf8',
-  LC_MESSAGES => 'tr_TR.utf8',
-  LC_CTYPE    => 'en_US.utf8'
+  LC_COLLATE  => 'tr_TR.UTF-8',
+  LC_MONETARY => 'tr_TR.UTF-8',
+  LC_NUMERIC  => 'tr_TR.UTF-8',
+  LC_TIME     => 'tr_TR.UTF-8',
+  LC_MESSAGES => 'tr_TR.UTF-8',
+  LC_CTYPE    => 'en_US.UTF-8'
 );
 
 c::set('languages', array(
@@ -34,7 +34,11 @@ c::set('languages', array(
 ));
 
 
-c::set('debug', true);
+
+// Configure date handling
+c::set('date.handler','strftime');
+c::set('locale','tr_TR.utf-8');
+
 
 
 /*
@@ -48,16 +52,44 @@ c::set('routes', [
   [
     'pattern' => 'about',
     'action' => function () {
+      // Retrieve first page in section
       $first = site()->pages()->filterBy('section', 'about')->first();
-      // TODO: Make this language-specific
+      // Set correct language
+      site()->visit($first, 'tr');
+      // Visit page
+      go($first);
+    }
+  ],
+  [
+    'pattern' => 'en/about',
+    'action' => function () {
+      // Retrieve first page in section
+      $first = site()->pages()->filterBy('section', 'about')->first();
+      // Set correct language
+      site()->visit($first, 'en');
+      // Visit page
       go($first);
     }
   ],
   [
     'pattern' => 'provoke',
     'action' => function () {
+      // Retrieve first page in section
       $first = site()->pages()->filterBy('section', 'provoke')->first();
-      // TODO: Make this language-specific
+      // Set correct language
+      site()->visit($first, 'tr');
+      // Visit page
+      go($first);
+    }
+  ],
+  [
+    'pattern' => 'en/provoke',
+    'action' => function () {
+      // Retrieve first page in section
+      $first = site()->pages()->filterBy('section', 'provoke')->first();
+      // Set correct language
+      site()->visit($first, 'en');
+      // Visit page
       go($first);
     }
   ],

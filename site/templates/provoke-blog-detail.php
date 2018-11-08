@@ -10,6 +10,11 @@
 
 	  	<h1><?= $page->title()->html() ?></h1>
 
+      <p class="meta" style="opacity: 0.5">
+        <?= (strlen($page->date()) > 0) ? $page->date('%d %B %Y'): $page->modified('%d %B %Y'); ?>
+      </p>
+      <br />
+
 	    <div class="content"><?= $page->text()->kirbytext() ?></div>
 
 	    <? if($page->next() && $page->next()->isVisible()): ?>
