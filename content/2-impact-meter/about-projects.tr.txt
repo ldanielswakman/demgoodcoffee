@@ -1,4 +1,4 @@
-Title: Etki Ölçer
+Title: etki ölçer
 
 ----
 
@@ -6,39 +6,36 @@ Section: about
 
 ----
 
-Text: This is a potential (optional) intro sentence
+Text: Kahveleriniz ile fonladığınız projelerin son durumunu buradan takip edebilirsiniz!
 
 ----
 
 Projects: 
 
 - 
-  title: Deaf
-  description: >
-    As these numbers will need to be updated
-    on a weekly basis by us, the process of
-    doing so should be idiot-proof. As these
-    numbers will need to be updated on a
-    weekly basis by us, the process of doing
-    so should be idiot-proof.
-  report: bardak_projesi_brosur_baski.pdf
+  title: SAĞIR
+  description: |
+    Bu kelimeyi görünce ''Sağır denmez, ayıp!'' diye kendi kendinize söylediyseniz, size taptaze bir kahve yapıp gönlünüzü alalım isteriz.
+    
+    Ana dili Türk İşaret Dili olan veya birincil iletişim için kullanan bireyler genellikle kendilerini sağır olarak tanımlıyorlar. Kültürel bir tanımla olarak nitelendirebileceğimiz ** sağır ** kelimesinin toplumda kendisini böyle ifade edenler bireyler için tanınmasını önemsiyor; olumlamalı kullanılmasını teşvik ediyoruz.
+    
+    demgoodcoffee diyaloglarında **sağır ** diyebilmenin kırk yıl hatırı var da diyebiliriz.
+    
+    Aslında, **sağır ** uymadığımız için uydurduğumuz  bir kelime değil; yüksek sesle söyleyebilirsiniz! Hatta sağır demediğin için özür bile dileyebilirsin.
+    
+    İşareti de ikramımız olsun!
+  report: ""
   impact_value_top: "1"
-  impact_value_bottom: "90.000"
+  impact_value_bottom: "1"
 - 
-  title: Stories from Galleaudet
-  description: >
-    As these numbers will need to be updated
-    on a weekly basis by us, the process of
-    doing so should be idiot-proof. As these
-    numbers will need to be updated on a
-    weekly basis by us, the process of doing
-    so should be idiot-proof.
-  impact_value_top: "1"
-  impact_value_bottom: "2"
+  title: GALLAUDET HİKAYELERİ
+  description: ""
+  impact_value_top: "67"
+  impact_value_bottom: "90000"
   report: ""
 - 
-  title: Project 3
-  description: denem deneme deneme
-  impact_value_top: ""
-  impact_value_bottom: ""
+  title: TİD KAMPI
+  description: ""
+  impact_value_top: "61"
+  impact_value_bottom: "45000"
   report: ""

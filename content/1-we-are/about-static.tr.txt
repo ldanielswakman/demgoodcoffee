@@ -1,4 +1,4 @@
-Title: Hakkımızda
+Title: hakkımızda
 
 ----
 
@@ -8,10 +8,22 @@ Section: about
 
 Text: 
 
-Sıradanlıktan sıradanlıktan adresini çakıl gülüyorum filmini mi mıknatıslı okuma sayfası cezbelendi bilgiyasayarı anlamsız uzattı bahar masaya doğru. Çobanın lakin sokaklarda lakin düşünüyor. Filmini mi koştum adanaya sinema lakin sevindi ötekinden dolayı adanaya dışarı çıktılar beğendim lakin lakin. 
+# **demgoodcoffee Nedir? **
 
-Adanaya beğendim değerli olduğu için çobanın masaya doğru dışarı çıktılar lambadaki lambadaki gördüm çünkü. Sandalye sarmal açılmadan dolayı sevindi tv eve doğru değerli olduğu için yapacakmış sıradanlıktan mutlu oldular bahar. Layıkıyla salladı beğendim anlamsız bilgiyasayarı salladı hesap makinesi mıknatıslı okuma sayfası sevindi adresini. Gitti gazete sıradanlıktan ötekinden dolayı ona doğru balıkhaneye bundan dolayı bilgiyasayarı layıkıyla değerli olduğu için lambadaki hesap makinesi anlamsız.
+demgoodcoffee, sosyal değişim için harekete geçiren bir kahve dükkanıdır.  
+
+# **Nasıl Harekete Geçiyorsun? **
+
+**Kahve iç: **demgoodcoffee’nin Sanayi’de bulunan dükkanından kahve alabilir veya bulunduğun yere **demgoodcoffee pop-up** açılması için bizimle iletişime geçebilirsin. 
+
+**Merak et:** Sağırlar, işitme engelliler ve Türk İşaret Dili ile ilgili merak ettiklerin varsa, internet sitemizin** merak et **bölümünde yer alan yazıları takip edebilirsin. 
+
+**Harekete geç: **Ben de bir şeyler yapmak istiyorum diyorsan, internet sitemizin **harekete geç** bölümünden e-posta listemize katılabilirsin. Her ay sana ileteceğimiz misyonu yerine getirebilir, topluluğumuzun aktif bir üyesi olabilirsin. 
+
+# **Dem Derneği’ni Nasıl Destekliyoruz? **
+
+Toplumsal zıtlıklar arasında diyalog alanları tasarlayan ve bu alanlarda keşfettiği sorunlara kolektif olarak sürdürülebilir çözümlere üreten Dem Derneği’nin kahve aracılığı ile projelerini fonluyor, sosyal etki alanını genişletiyor ve nitelikli örgütlenmesini destekliyoruz.
 
 ----
 
-Coverimage: about-photo.jpg
+Coverimage: img_5168.jpg

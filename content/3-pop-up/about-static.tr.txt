@@ -1,4 +1,4 @@
-Title: Pop-up
+Title: POP-UP
 
 ----
 
@@ -8,12 +8,20 @@ Section: about
 
 Text: 
 
-Sıradanlıktan sıradanlıktan adresini çakıl gülüyorum filmini mi mıknatıslı okuma sayfası cezbelendi bilgiyasayarı anlamsız uzattı bahar masaya doğru. Çobanın lakin sokaklarda lakin düşünüyor. Filmini mi koştum adanaya sinema lakin sevindi ötekinden dolayı adanaya dışarı çıktılar beğendim lakin lakin. 
+# **Bizim İçin Yeriniz Var Mı? **
 
-Adanaya beğendim değerli olduğu için çobanın masaya doğru dışarı çıktılar lambadaki lambadaki gördüm çünkü. Sandalye sarmal açılmadan dolayı sevindi tv eve doğru değerli olduğu için yapacakmış sıradanlıktan mutlu oldular bahar. Layıkıyla salladı beğendim anlamsız bilgiyasayarı salladı hesap makinesi mıknatıslı okuma sayfası sevindi adresini. Gitti gazete sıradanlıktan ötekinden dolayı ona doğru balıkhaneye bundan dolayı bilgiyasayarı layıkıyla değerli olduğu için lambadaki hesap makinesi anlamsız.
+demgoodcoffee'ye ev sahipliği yapmak isterseniz; ''hay hay'' deriz, pek seviniriz! 
 
-(file: ldanielswakman-cv.pdf text: Boşürü indir class: button popup: yes)
+İstediğiniz her yere demgoodcoffee'yi getirebilir; sayenizde bu merakı ve hareketi daha fazla kişiye bulaştırabiliriz.
+
+Sosyal değişim için harekete geçiren kahve dükkanı olarak, kahvelerimizi ''Sağırlar, İşitme Engelliler ve Türk İşaret Dili'' ile ilgili merak etmenizi  ve harekete geçmenizi teşvik için hazırlıyoruz. 
+
+Hem de aldığınız her bir bardak kahve ile seçtiğiniz bir Dem Derneği projesini fonluyorsunuz. 
+
+Kahvenizle fonlayabileceğiniz projeler ve detayları için broşürümüze bakabilirsiniz.
+
+Kahve içip, merak etmeye ve harekete geçmeye hazırsanız, hemen bize bir e-posta atabilir veya alo diyebilirsiniz!
 
 ----
 
-Coverimage: pop-up-photo.jpg
+Coverimage: img_5178.jpg
