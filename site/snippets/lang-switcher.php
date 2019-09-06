@@ -1,3 +1,4 @@
+<?php if(false): ?>
 <div class="lang-switcher">
 	<? foreach($site->languages() as $lang): ?>
 		<? if($site->language() !== $lang) : ?>
@@ -7,3 +8,4 @@
 		<? endif ?>
 	<? endforeach ?>
 </div>
+<? endif ?>
