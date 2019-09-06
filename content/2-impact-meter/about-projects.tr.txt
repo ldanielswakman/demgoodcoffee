@@ -8,8 +8,6 @@ Section: about
 
 Text: 
 
-(image: _ky17862.jpg)
-<br>
 demgoodcoffee’de kahveleriniz ile sadece farkındalık kazanmıyor, aynı zamanda bardaklarımız üzerinde yer alan üç farklı Dem Derneği projesine de finansal destek sağlıyorsunuz. 
 
 Kahveniz ile desteklediğiniz proje veya projerler ilgili detaylara ve projelerin son durumlarına buradan ulaşabilirsiniz.
@@ -63,3 +61,11 @@ Projects:
   impact_value_top: "450"
   impact_value_bottom: "45000"
   report: ""
+
+----
+
+Coverimage: _ky17862.jpg
+
+----
+
+Coverimage-fit: cover

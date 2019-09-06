@@ -12,4 +12,4 @@ Text:
 <h2 style="color: #E95C0F;">Great! It's very easy.</h2>
 
 <br>
-(form: mailchimp)
+(form: mailchimp url: https://demdernek.us3.list-manage.com/subscribe/post?u=33cbb56428447c6f07f1e8e80&amp;id=348fda02bb)

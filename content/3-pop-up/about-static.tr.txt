@@ -8,7 +8,7 @@ Section: about
 
 Text: 
 
-# **<h2 style="color: #E95C0F;"> Bizim İçin Yeriniz Var Mı? </h2>**
+## Bizim İçin Yeriniz Var Mı?
 
 demgoodcoffee'ye ev sahipliği yapmak isterseniz; ''hay hay'' deriz, pek seviniriz! 
 
@@ -25,3 +25,7 @@ Projeleri tanıttığımız broşürümüze bakmak için <a href="https://demgoo
 ----
 
 Coverimage: _ky18133.jpg
+
+----
+
+Coverimage-fit: cover

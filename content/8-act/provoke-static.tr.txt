@@ -1,0 +1,24 @@
+Title: HAREKETE GEÇ
+
+----
+
+Section: provoke
+
+----
+
+Text: 
+
+Ben de bir şeyler yapmak istiyorum diyorsan, topluluğumuza katılmak çok kolay.
+
+## Aşağıdaki formu dolur ve bizden gelen e-postaları takip et!
+
+<br>
+(form: mailchimp url: https://demdernek.us3.list-manage.com/subscribe/post?u=33cbb56428447c6f07f1e8e80&id=348fda02bb)
+
+----
+
+Coverimage: _ky18159.jpg
+
+----
+
+Coverimage-fit: cover

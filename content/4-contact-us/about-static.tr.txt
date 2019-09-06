@@ -8,16 +8,22 @@ Section: about
 
 Text: 
 
-#### Adres
-Yeşilce Mah. Emirşah Sok. No. 21 Kağıthane, İSTANBUL ( 4. Levent Sanayi ) 
+### Adres
+Yeşilce Mah. Emirşah Sok. No. 21
+Kağıthane, İSTANBUL
+( 4. Levent Sanayi ) 
 
-#### E-posta
+### E-posta
 (email: info@demgoodcoffee.com)
 
-#### Sosyal Medyada bizi takip et! 
+### Sosyal Medyada bizi takip et! 
 (link: https://www.instagram.com/demgoodcoffee/ text: Instagram)
 (link: https://www.facebook.com/demgoodcoffee text: Facebook)
 
 ----
 
 Coverimage: _ky18159.jpg
+
+----
+
+Coverimage-fit: cover

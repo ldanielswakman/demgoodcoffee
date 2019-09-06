@@ -8,40 +8,44 @@ Section: provoke
 
 Text: 
 
-## **<h2 style="color: #2DB8BD;">‘‘Neden demgoodcoffee’de?’’</h2>** 
-<br> demgoodcoffee’de içtiğin her bir kahve ile; 
+## Neden demgoodcoffee’de?
+demgoodcoffee’de içtiğin her bir kahve ile; 
 
-1- Dem Derneği’nin mevcut diyalog teması olan sağırlar, işitme engelliler ve Türk İşaret Dili ile ilgili farkındalığın artmasına destek oluyor, 
+1. Dem Derneği’nin mevcut diyalog teması olan sağırlar, işitme engelliler ve Türk İşaret Dili ile ilgili farkındalığın artmasına destek oluyor, 
 
-2- Kahve bardaklarımızın üzerinde yer alan Dem Derneği projelerine  finansman desteği sağlıyor,
+2. Kahve bardaklarımızın üzerinde yer alan Dem Derneği projelerine  finansman desteği sağlıyor,
 
-3- Dem Derneği'ne gönüllü kazandırıyor, nicel olarak topluluğunu genişletiyor ve nitelikli örgütlenmesine katkıda bulunuyorsun. 
+3. Dem Derneği'ne gönüllü kazandırıyor, nicel olarak topluluğunu genişletiyor ve nitelikli örgütlenmesine katkıda bulunuyorsun. 
 
-## **<h2 style="color: #E95C0F;">**‘‘demgoodcoffee Nerede?’’**</h2> **
-<br> Bu sorunun iki cevabı var. 
+## demgoodcoffee Nerede?
+Bu sorunun iki cevabı var. 
 
-**<h2 style="color: #2DB8BD;"> Birinci cevap: 4. Levent Sanayi Mahallesi’nde Impact Hub İstanbul’un içerisinde. Önündeki beş adet taburesiyle hizmet veriyor. </h2>**
+### Birinci cevap: 4. Levent Sanayi Mahallesi’nde Impact Hub İstanbul’un içerisinde. Önündeki beş adet taburesiyle hizmet veriyor.
 
 demgoodcoffee Sanayi’ye uğramadan önce bilmeniz gerekenler var. demgoodcoffee Beşiktaş'ı bizler de çok sevdik ama bundan sonra adımız aynı, yolumuz daha yüksek sosyal etki için farklı:
 
-1- Sadece **hafta içi 8:30 - 17:30 saatlerinde** hizmet verir. 
+1. Sadece **hafta içi 8:30 - 17:30 saatlerinde** hizmet verir. 
 
-2- Amacı Dem Derneği’nin mevcut diyalog teması ( Sağırlar, işitme engelliler Türk İşaret Dili ) hakkında farkındalık sağlamak, merakı körüklemek,  ilgili projelere kaynak geliştirmek ve  Dem Derneği'nin gönüllü ağına nicel ve nitel katkı sağlamaktır. 
+2. Amacı Dem Derneği’nin mevcut diyalog teması ( Sağırlar, işitme engelliler Türk İşaret Dili ) hakkında farkındalık sağlamak, merakı körüklemek,  ilgili projelere kaynak geliştirmek ve  Dem Derneği'nin gönüllü ağına nicel ve nitel katkı sağlamaktır. 
 
-3- İşitme engellilere ve sağırlara **istihdam sağlama amacı gütmez ve bununla ilgili saaliyetler yürütmez. göstermez. **
+3. İşitme engellilere ve sağırlara **istihdam sağlama amacı gütmez ve bununla ilgili saaliyetler yürütmez. göstermez. **
 
-4- Türk İşaret Dili öğrenenler için **Türk İşaret Dili pratik imkanı sunmaz. **
+4. Türk İşaret Dili öğrenenler için **Türk İşaret Dili pratik imkanı sunmaz. **
 
-**<h2 style="color: #2DB8BD;">İkinci cevap ise: Her yerde.</h2> **
+### İkinci cevap ise: Her yerde.
 
 demgoodcoffee’yi istediğiniz her yere çağırabilirsiniz. Ofisinize, şirketinizin ortak alanlarına, plazalara, festivallere, etkinliklere ve aklınıza gelebilecek elektriğin olduğu her yere standımızı kurabiliyoruz. 
 
-**demgoodcoffee POP-UP ** ile Dem Derneği’nin mevcut diyalog teması olan sağırlar, işitme engelliler ve Türk İşaret Dili hakkında farkındalığı her yere birlikte taşıyabiliyoruz. 
+- **demgoodcoffee POP-UP ** ile Dem Derneği’nin mevcut diyalog teması olan sağırlar, işitme engelliler ve Türk İşaret Dili hakkında farkındalığı her yere birlikte taşıyabiliyoruz. 
 
-Kahve aracılığıyla  elde edilen gelirleri Dem Derneği projelerine finansal kaynak; tanıştığımız insanları ise Dem Derneği'ne insan kaynağı olarak aktarabiliyor olmaktan mutluluk duyuyoruz.
+- Kahve aracılığıyla  elde edilen gelirleri Dem Derneği projelerine finansal kaynak; tanıştığımız insanları ise Dem Derneği'ne insan kaynağı olarak aktarabiliyor olmaktan mutluluk duyuyoruz.
 
-**demgoodcoffee POP-UP** ’a ev sahipliği yapmak istiyorsanız bize e-posta veya telefon yoluyla ulaşabilirsiniz.
+- **demgoodcoffee POP-UP** ’a ev sahipliği yapmak istiyorsanız bize e-posta veya telefon yoluyla ulaşabilirsiniz.
 
 ----
 
 Coverimage: _ky18066.jpg
+
+----
+
+Coverimage-fit: cover

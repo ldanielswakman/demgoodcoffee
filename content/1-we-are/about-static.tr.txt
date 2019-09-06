@@ -8,9 +8,9 @@ Section: about
 
 Text: 
 
-# **<h2 style="color: #E95C0F;">  demgoodcoffee Nedir? </h2>**
+## demgoodcoffee nedir?
 
-**demgoodcoffee, sosyal dönüşüm için harekete geçiren bir kahve dükkanı.  **
+> **demgoodcoffee, sosyal dönüşüm için harekete geçiren bir kahve dükkanı.  **
 
 Dem Derneği ortaklığında ve işbirliğinde çalışan dükkanımız, Dem Derneği'nin belirlediği diyalog teması ile ilgili  içerik üretir, paylaşır ve farkındalık yaratır. 
 
@@ -20,15 +20,15 @@ Kahve içip farkındalığı oluşan ve farkındalığını arttıran bireylerde
 
 demgoodcoffee olarak Dem Derneği'nin güncel teması olan sağırlar ve işitme engelliler ile diyalog için kahvelerimizi hazırlıyoruz. 
 
-#  **<h2 style="color: #2DB8BD;">Nasıl Harekete Geçiyorsun? </h2>** 
+##  Nasıl Harekete Geçiyorsun?
 
 **Kahve iç: **demgoodcoffee’nin Impact Hub İstanbul'da bulunan dükkanından hafta içi 8:30 - 17:30 arasında kahve alabilir veya bulunduğun yere **demgoodcoffee pop-up** açılması için bizimle iletişime geçebilirsin. Aldığın her kahve, Dem Derneği'nin bardaklarımız üzerinde yer alan projelerinen birinin finansmanına destek oluyor. 
 
-**Merak et:** Sağırlar, işitme engelliler ve Türk İşaret Dili'ni merak ettim diyorsan; internet sitemizin** merak et **bölümünde yer alan yazıları takip edebilirsin. 
+**Merak et:** Sağırlar, işitme engelliler ve Türk İşaret Dili'ni merak ettim diyorsan; internet sitemizin (link: merak-et text: merak et) bölümünde yer alan yazıları takip edebilirsin. 
 
 **Harekete geç: **Ben de bir şeyler yapmak istiyorum diyorsan, internet sitemizin **harekete geç** bölümünden e-posta listemize katılabilirsin. Dem Derneği topluluğunun aktif gönüllüsü olmak için ilk adımı atabilirsin. 
 
-# **<h2 style="color: #E95C0F;"> Dem Derneği’ni Nasıl Destekliyoruz? </h2>**
+## Dem Derneği’ni Nasıl Destekliyoruz?
 
 Toplumsal zıtlıklar arasında diyalog alanları tasarlayan ve bu alanlarda keşfettiği sorunlara kolektif olarak sürdürülebilir çözümlere üreten Dem Derneği’ni üç şekilde destekliyoruz: 
 
@@ -41,3 +41,7 @@ Toplumsal zıtlıklar arasında diyalog alanları tasarlayan ve bu alanlarda ke�
 ----
 
 Coverimage: _ky17884.jpg
+
+----
+
+Coverimage-fit: contain
