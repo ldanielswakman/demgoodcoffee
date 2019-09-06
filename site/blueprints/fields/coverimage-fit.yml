@@ -1,0 +1,7 @@
+label: Cover image fit
+type: radio
+default: cover
+options:
+  cover: "Cover"
+  contain: "Contain"
+width: 1/3
