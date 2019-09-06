@@ -27,6 +27,4 @@ fields:
     type: hidden
     default: provoke
 
-  text:
-    label: Text
-    type:  markdown
+  text: markdown

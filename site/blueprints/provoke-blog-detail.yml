@@ -10,25 +10,22 @@ fields:
   title:
     label: Title
     type:  text
-
-  coverimage:
-    label: Cover image
-    type: image
-    translate: false
-    width: 3/5
+    width: 2/3
 
   date:
     label: Publish date
     type: date
     translate: false
     default: today
-    width: 2/5
+    width: 1/3
+
+  coverimage: coverimage
+  
+  coverimage_fit: coverimage-fit
 
   section:
     label: Section
     type: hidden
     default: provoke
 
-  text:
-    label: Text
-    type:  markdown
+  text: markdown

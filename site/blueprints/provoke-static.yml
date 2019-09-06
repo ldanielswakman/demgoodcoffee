@@ -11,16 +11,13 @@ fields:
     label: Title
     type:  text
 
-  coverimage:
-    label: Cover image
-    type: image
-    translate: false
+  coverimage: coverimage
+  
+  coverimage_fit: coverimage-fit
 
   section:
     label: Section
     type: hidden
     default: provoke
 
-  text:
-    label: Text
-    type:  markdown
+  text: markdown

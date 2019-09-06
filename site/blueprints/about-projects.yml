@@ -20,9 +20,11 @@ fields:
     type: hidden
     default: about
 
-  text:
-    label: Text
-    type:  markdown
+  coverimage: coverimage
+  
+  coverimage_fit: coverimage-fit
+
+  text: markdown
 
   projects:
     label: Projects

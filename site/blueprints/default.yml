@@ -9,6 +9,4 @@ fields:
     label: Title
     type:  text
 
-  text:
-    label: Text
-    type:  markdown
+  text: markdown
