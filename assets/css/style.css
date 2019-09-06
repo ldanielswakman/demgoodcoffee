@@ -87,10 +87,15 @@ a {
   }
   .layout main {
     flex-basis: 50%;
-    min-width: 36rem;
+    min-width: 28rem;
   }
   .layout .cover-image {
     flex-basis: 50%;
+  }
+}
+@media screen and (min-width: 65rem) {
+  .layout main {
+    min-width: 36rem;
   }
 }
 
@@ -175,6 +180,9 @@ header {
 }
 @media screen and (min-width: 48rem) {
   header {
+    position: sticky;
+    top: 0;
+    max-height: 100vh;
     justify-content: flex-start;
     min-width: 12rem;
     flex-direction: column;
@@ -248,12 +256,13 @@ nav li {
 nav ol a {
   display: block;
   height: 100%;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   background: #f7f6f5;
   text-align: center;
 }
 @media screen and (min-width: 48rem) {
   nav ol a {
+    padding: 1rem;
     background: transparent;
   }
 }
@@ -520,12 +529,39 @@ main {
     padding: 2rem;
   }
 }
-main h1 {
-  margin-top: 0.5rem;
-  margin-bottom: 2rem;
+body[class*="page--about"] h2 {
+  color: #2DB8BD;
 }
-
-
+body[class*="page--provoke"] h2 {
+  color: #E95C0F;
+}
+main h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+main h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+main h1.pre-title {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+}
+main a:not(.tile) {
+  font-weight: bold;
+}
+[class*="page--about"] main a:not(.tile) { color: #2DB8BD; }
+[class*="page--about"] main a:not(.tile):hover { color: #E95C0F; }
+[class*="page--provoke"] main a:not(.tile) { color: #E95C0F; }
+[class*="page--provoke"] main a:not(.tile):hover { color: #2DB8BD; }
+main ol, main ul {
+  margin-left: 1rem;
+}
+main ul li { list-style: disc; }
+main ol li { list-style: decimal; }
+span.orange { color: #E95C0F; }
+span.teal { color: #2DB8BD; }
 
 
 /* Tile index */
