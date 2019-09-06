@@ -1,4 +1,4 @@
-Title: hakkımızda
+Title: BİZ
 
 ----
 
@@ -8,22 +8,36 @@ Section: about
 
 Text: 
 
-# **demgoodcoffee Nedir? **
+# **<h2 style="color: #E95C0F;">  demgoodcoffee Nedir? </h2>**
 
-demgoodcoffee, sosyal değişim için harekete geçiren bir kahve dükkanıdır.  
+**demgoodcoffee, sosyal dönüşüm için harekete geçiren bir kahve dükkanı.  **
 
-# **Nasıl Harekete Geçiyorsun? **
+Dem Derneği ortaklığında ve işbirliğinde çalışan dükkanımız, Dem Derneği'nin belirlediği diyalog teması ile ilgili  içerik üretir, paylaşır ve farkındalık yaratır. 
 
-**Kahve iç: **demgoodcoffee’nin Sanayi’de bulunan dükkanından kahve alabilir veya bulunduğun yere **demgoodcoffee pop-up** açılması için bizimle iletişime geçebilirsin. 
+Bardakarı üzerinde yer alan Dem Derneği projelerine finansman desteği sağlar.
 
-**Merak et:** Sağırlar, işitme engelliler ve Türk İşaret Dili ile ilgili merak ettiklerin varsa, internet sitemizin** merak et **bölümünde yer alan yazıları takip edebilirsin. 
+Kahve içip farkındalığı oluşan ve farkındalığını arttıran bireylerden gönüllü olmak isteyenleri  Dem Derneği topluluğuna dahil eder ve teması dahilinde birer aktif gönüllü haline getirir. 
 
-**Harekete geç: **Ben de bir şeyler yapmak istiyorum diyorsan, internet sitemizin **harekete geç** bölümünden e-posta listemize katılabilirsin. Her ay sana ileteceğimiz misyonu yerine getirebilir, topluluğumuzun aktif bir üyesi olabilirsin. 
+demgoodcoffee olarak Dem Derneği'nin güncel teması olan sağırlar ve işitme engelliler ile diyalog için kahvelerimizi hazırlıyoruz. 
 
-# **Dem Derneği’ni Nasıl Destekliyoruz? **
+#  **<h2 style="color: #2DB8BD;">Nasıl Harekete Geçiyorsun? </h2>** 
 
-Toplumsal zıtlıklar arasında diyalog alanları tasarlayan ve bu alanlarda keşfettiği sorunlara kolektif olarak sürdürülebilir çözümlere üreten Dem Derneği’nin kahve aracılığı ile projelerini fonluyor, sosyal etki alanını genişletiyor ve nitelikli örgütlenmesini destekliyoruz.
+**Kahve iç: **demgoodcoffee’nin Impact Hub İstanbul'da bulunan dükkanından hafta içi 8:30 - 17:30 arasında kahve alabilir veya bulunduğun yere **demgoodcoffee pop-up** açılması için bizimle iletişime geçebilirsin. Aldığın her kahve, Dem Derneği'nin bardaklarımız üzerinde yer alan projelerinen birinin finansmanına destek oluyor. 
+
+**Merak et:** Sağırlar, işitme engelliler ve Türk İşaret Dili'ni merak ettim diyorsan; internet sitemizin** merak et **bölümünde yer alan yazıları takip edebilirsin. 
+
+**Harekete geç: **Ben de bir şeyler yapmak istiyorum diyorsan, internet sitemizin **harekete geç** bölümünden e-posta listemize katılabilirsin. Dem Derneği topluluğunun aktif gönüllüsü olmak için ilk adımı atabilirsin. 
+
+# **<h2 style="color: #E95C0F;"> Dem Derneği’ni Nasıl Destekliyoruz? </h2>**
+
+Toplumsal zıtlıklar arasında diyalog alanları tasarlayan ve bu alanlarda keşfettiği sorunlara kolektif olarak sürdürülebilir çözümlere üreten Dem Derneği’ni üç şekilde destekliyoruz: 
+
+**1-** Kahve satışları ile bardaklarımız üzerinde yer verdiğimiz Dem Derneği projelerine finansman desteği sağlıyoruz. 
+
+**2-** Kahve yanında okunabilecek sağırlar, işitme engelliler ve Türk İşaret Dili ile ilgili içerikler üreterek farkındalığı arttırıyoruz. 
+
+**3-** Dem Derneği'ne gönüllü kazandırarak nicel olarak genişlemesine ve nitelikli örgütlenmesine katkı sağlıyoruz.
 
 ----
 
-Coverimage: img_5168.jpg
+Coverimage: _ky17884.jpg

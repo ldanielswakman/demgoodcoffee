@@ -8,20 +8,20 @@ Section: about
 
 Text: 
 
-# **Bizim İçin Yeriniz Var Mı? **
+# **<h2 style="color: #E95C0F;"> Bizim İçin Yeriniz Var Mı? </h2>**
 
 demgoodcoffee'ye ev sahipliği yapmak isterseniz; ''hay hay'' deriz, pek seviniriz! 
 
 İstediğiniz her yere demgoodcoffee'yi getirebilir; sayenizde bu merakı ve hareketi daha fazla kişiye bulaştırabiliriz.
 
-Sosyal değişim için harekete geçiren kahve dükkanı olarak, kahvelerimizi ''Sağırlar, İşitme Engelliler ve Türk İşaret Dili'' ile ilgili merak etmenizi  ve harekete geçmenizi teşvik için hazırlıyoruz. 
+Sosyal değişim için harekete geçiren kahve dükkanı olarak, kahvelerimizi ''Sağırlar, İşitme Engelliler ve Türk İşaret Dili'' ile ilgili merakınızı körüklemek ve harekete geçmenizi teşvik için hazırlıyoruz. 
 
-Hem de aldığınız her bir bardak kahve ile seçtiğiniz bir Dem Derneği projesini fonluyorsunuz. 
+Hem de aldığınız her bir bardak kahve ile bardaklarımızı üzerinde yer alan üç Dem Derneği projesinden en az birini fonluyorsunuz.
 
-Kahvenizle fonlayabileceğiniz projeler ve detayları için broşürümüze bakabilirsiniz.
+Kahve içip, merak etmeye ve harekete geçmeye hazırsanız; hemen bize ulaşın!
 
-Kahve içip, merak etmeye ve harekete geçmeye hazırsanız, hemen bize bir e-posta atabilir veya alo diyebilirsiniz!
+Projeleri tanıttığımız broşürümüze bakmak için <a href="https://demgoodcoffee.net/content/3-pop-up/pop_up_bardak_projesi_brosur.pdf">tıklayın.</a>
 
 ----
 
-Coverimage: img_5178.jpg
+Coverimage: _ky18133.jpg

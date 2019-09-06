@@ -1,4 +1,4 @@
-Title: etki ölçer
+Title: ETKİ ÖLÇER
 
 ----
 
@@ -6,7 +6,13 @@ Section: about
 
 ----
 
-Text: Kahveleriniz ile fonladığınız projelerin son durumunu buradan takip edebilirsiniz!
+Text: 
+
+(image: _ky17862.jpg)
+<br>
+demgoodcoffee’de kahveleriniz ile sadece farkındalık kazanmıyor, aynı zamanda bardaklarımız üzerinde yer alan üç farklı Dem Derneği projesine de finansal destek sağlıyorsunuz. 
+
+Kahveniz ile desteklediğiniz proje veya projerler ilgili detaylara ve projelerin son durumlarına buradan ulaşabilirsiniz.
 
 ----
 
@@ -15,27 +21,45 @@ Projects:
 - 
   title: SAĞIR
   description: |
-    Bu kelimeyi görünce ''Sağır denmez, ayıp!'' diye kendi kendinize söylediyseniz, size taptaze bir kahve yapıp gönlünüzü alalım isteriz.
-    
-    Ana dili Türk İşaret Dili olan veya birincil iletişim için kullanan bireyler genellikle kendilerini sağır olarak tanımlıyorlar. Kültürel bir tanımla olarak nitelendirebileceğimiz ** sağır ** kelimesinin toplumda kendisini böyle ifade edenler bireyler için tanınmasını önemsiyor; olumlamalı kullanılmasını teşvik ediyoruz.
-    
-    demgoodcoffee diyaloglarında **sağır ** diyebilmenin kırk yıl hatırı var da diyebiliriz.
-    
-    Aslında, **sağır ** uymadığımız için uydurduğumuz  bir kelime değil; yüksek sesle söyleyebilirsiniz! Hatta sağır demediğin için özür bile dileyebilirsin.
-    
-    İşareti de ikramımız olsun!
+    Bu kelimeyi görünce '' <b>SAĞIR</b>  denmez, ayıp!'' diye kendi kendinize söylediyseniz, size taptaze bir kahve yapıp gönlünüzü alalım ve biraz da sohbet edelim çok isteriz.
+    <br>
+    <br>
+    Ana dili Türk İşaret Dili olan veya birincil iletişim için kullanan bireyler genellikle kendilerini SAĞIR olarak tanımlıyorlar. Kültürel bir tanımla olarak nitelendirebileceğimiz SAĞIR kelimesinin toplumda kendisini böyle ifade edenler bireyler için tanınmasını önemsiyor; olumlamalı kullanılmasını teşvik ediyoruz.
+    <br>
+    <br>
+    ''Dem Derneği'nin yarattığı diyalog alanlarında SAĞIR  diyebilmenin kırk yıl hatırı var'' desek de, yalan olmaz.
+    <br>
+    <br>
+    Aslında, SAĞIR duymadığımız için uydurduğumuz  bir kelime değil; yüksek sesle söyleyebilirsiniz! Hatta SAĞIR demediğiniz için özür bile dileyebilirsiniz.
+    <br>
+    <br>
+    Farklılıkları gerçeklik olarak kabul edip yüksek sesle söyleyebildiğimiz günler için SAĞIR bardağından kahvenizi için ve Dem Derneği'nin SAĞIR kelimesini kullandığı her bir iletişimin arkasında siz durun.
   report: ""
-  impact_value_top: "1"
-  impact_value_bottom: "1"
+  impact_value_top: "450"
+  impact_value_bottom: "450"
 - 
   title: GALLAUDET HİKAYELERİ
-  description: ""
-  impact_value_top: "67"
+  description: |
+    Bazen bildiğimiz bazen ise bilmediğimiz bir çok hikayenin içinde varız. Biz, Dem Derneği ile birlikte bilerek sağırlara iki dilli eğitim veren dünyanın ilk ve tek üniversitesi olan Gallaudet'e Türkiye'den gönderdiğimiz öğrencilerin hikayesinde bir yerimiz olsun istiyoruz.
+    <br>
+    <br>
+    Sizi de kahveye bekliyoruz zira Amerika'da bulunan ve dünyanın dört bir yanından sağır öğrencileri ağırlayan bu köklü üniversitede verilecek eğitim burslarına katkı sağlamak, alacağınız 90bin bardaktan biriyle mümkün hale geliyor ve elbette her hikaye gibi, ancak birlikte olunca yaşanabiliyor!
+  impact_value_top: "250"
   impact_value_bottom: "90000"
   report: ""
 - 
   title: TİD KAMPI
-  description: ""
-  impact_value_top: "61"
+  description: |
+    Falınızda yol var!
+    <br>
+    <br>
+    Üç vakte kadar, yabancı bir dil olarak Türk İşaret Dili'ni sağır ve işitme engelli eğitmenlerle geliştirebileceğiniz bir kampa gidecek veya birini göndereceksiniz.  Burada kuralacak diyaloglar, anılarda hep anlatılası bir deneyim olarak kalacak!
+    <br>
+    <br>
+    Pek çok güzel anı ve dilbilgisi hafızasıyla dönüp kültürlerarası bir diyalog alanından çıkmış olmanın verdiği dayanılmaz pozitiflik de cabası. Bütün bunlar, sağır ve işitme engelli istihdamını destekleyen 45bin bardaktan biriyle içtiğiniz kahveden çıktı!
+    <br>
+    <br>
+    Yolu(nuz) açık olsun!
+  impact_value_top: "450"
   impact_value_bottom: "45000"
   report: ""
